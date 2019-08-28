@@ -4,6 +4,7 @@ import Theme from '../Theme';
 
 const GlobalStyle = createGlobalStyle`
 ${reset}
+@import url("https://use.typekit.net/wrv5hzu.css");
 :root {
   font-size: 10px;
 }
@@ -52,6 +53,15 @@ a.main__content--link:focus {
   clip: auto;
   clip-path: none;
   -webkit-clip-path: none;
+}
+
+h1 {
+  color: #fff;
+  font-family: cheap-pine-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  text-shadow: 1px 1px 2px #101010;
 }
 `;
 
