@@ -1,9 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
-import reset from 'react-style-reset/string';
+import reset from 'react-style-reset';
 import Theme from '../Theme';
 
 const GlobalStyle = createGlobalStyle`
 ${reset}
+:root {
+  font-size: 10px;
+}
 body {
   background-color: ${Theme.pageBgColor};
   padding-bottom: 36rem;
@@ -11,6 +14,7 @@ body {
   color: ${Theme.pageTextColor};
   font-family: acumin-pro-condensed, sans-serif;
   font-weight: normal;
+  font-size: 1.8rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
