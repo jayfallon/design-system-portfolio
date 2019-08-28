@@ -1,0 +1,45 @@
+{
+  "name": "design-system-portfolio",
+  "version": "0.1.0",
+  "description": "Jay Fallon's design and development portfolio - 2019",
+  "main": "server/index.js",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "deploy": "now --target production",
+    "dev": "next",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayfallon/portfolio-redesign-2019.git"
+  },
+  "author": "Jay Fallon <jayfallon@gmail.com> (https://jayfallon.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayfallon/portfolio-redesign-2019/issues"
+  },
+  "dependencies": {
+    "next": "9.0.5",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "styled-components": "^4.3.2",
+    "styled-theming": "^2.2.0",
+    "next-offline": "^4.0.2",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-wesbos": "0.0.19",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.18.2"
+  }
+}
