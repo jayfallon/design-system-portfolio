@@ -1,7 +1,5 @@
-const ResumePage = props => (
-  <div>
-    <h1>Resume</h1>
-  </div>
-);
+import Resume from '../components/Resume';
+
+const ResumePage = props => <Resume />;
 
 export default ResumePage;
