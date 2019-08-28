@@ -1,5 +1,5 @@
 import DesignSystem from '../components/DesignSystem';
 
-const DesignSystem = props => <DesignSystem />;
+const DesignSystemPage = props => <DesignSystem />;
 
-export default DesignSystem;
+export default DesignSystemPage;
