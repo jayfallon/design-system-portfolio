@@ -1,7 +1,5 @@
-const StyledPages = props => (
-  <div>
-    <h1>StyledPage</h1>
-  </div>
-);
+import Styled from '../components/Styled';
+
+const StyledPages = props => <Styled />;
 
 export default StyledPages;

@@ -1,7 +1,5 @@
-const DeeThreePage = props => (
-  <div>
-    <h1>D3 page</h1>
-  </div>
-);
+import DeeThree from '../components/DeeThree';
+
+const DeeThreePage = props => <DeeThree />;
 
 export default DeeThreePage;

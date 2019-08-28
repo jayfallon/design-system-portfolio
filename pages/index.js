@@ -1,7 +1,5 @@
-const Home = () => (
-  <div>
-    <h1>My portfolio is a design system</h1>
-  </div>
-);
+import Home from '../components/Home';
 
-export default Home;
+const HomePage = () => <Home />;
+
+export default HomePage;

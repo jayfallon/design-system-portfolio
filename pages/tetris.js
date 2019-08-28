@@ -1,7 +1,5 @@
-const TetrisPage = props => (
-  <div>
-    <h1>Tetris?</h1>
-  </div>
-);
+import Tetris from '../components/Tetris';
+
+const TetrisPage = props => <Tetris />;
 
 export default TetrisPage;

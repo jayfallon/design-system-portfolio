@@ -1,7 +1,5 @@
-const StyledPage = props => (
-  <div>
-    <h1>Styled Page</h1>
-  </div>
-);
+import DesignSystem from '../components/DesignSystem';
 
-export default StyledPage;
+const DesignSystem = props => <DesignSystem />;
+
+export default DesignSystem;

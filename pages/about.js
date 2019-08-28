@@ -1,7 +1,5 @@
-const AboutPage = props => (
-  <div>
-    <h1>About</h1>
-  </div>
-);
+import About from '../components/About';
+
+const AboutPage = props => <About />;
 
 export default AboutPage;

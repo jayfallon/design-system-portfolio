@@ -1,7 +1,5 @@
-const WorkPage = props => (
-  <div>
-    <h1>Work Page</h1>
-  </div>
-);
+import Work from '../components/Work';
+
+const WorkPage = props => <Work />;
 
 export default WorkPage;
