@@ -15,9 +15,6 @@ const nextConfig = {
 
     return config;
   },
-  env: {
-    AIRTABLE_API_KEY: 'keyYkgz6E7jrnEfvS',
-  },
   target: 'serverless',
   workboxOpts: {
     swDest: 'static/service-worker.js',
