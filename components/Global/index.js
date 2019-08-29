@@ -61,7 +61,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
-  text-shadow: 1px 1px 2px #101010;
+  
 }
 `;
 

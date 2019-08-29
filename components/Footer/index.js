@@ -1,6 +1,6 @@
 const Footer = props => (
   <div>
-    <h1>Footer</h1>
+    <h1>We've arranged a footer for you</h1>
   </div>
 );
 
