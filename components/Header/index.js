@@ -1,6 +1,19 @@
+import NProgress from 'nprogress';
+import Router from 'next/router';
+
 import { HeaderNav } from '../UI/Navigation';
 import { HeaderLogo } from '../UI/Logo';
 import { Header_SC, HeaderComponent_SC } from './styles';
+
+Router.onRouteChangeStart = () => {
+  NProgress.start();
+};
+Router.onRouteChangeComplete = () => {
+  NProgress.done();
+};
+Router.onRouteChangeError = () => {
+  NProgress.done();
+};
 
 const Header = props => (
   <Header_SC>

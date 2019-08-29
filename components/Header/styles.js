@@ -11,7 +11,7 @@ const Header_SC = styled.header`
 
 const HeaderComponent_SC = styled.div`
   margin: 0 auto;
-  width: 120rem;
+  max-width: 120rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
