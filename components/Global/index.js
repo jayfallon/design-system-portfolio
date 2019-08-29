@@ -13,9 +13,10 @@ body {
   padding-bottom: 36rem;
   height: 100%;
   color: ${Theme.pageTextColor};
-  font-family: acumin-pro-condensed, sans-serif;
-  font-weight: normal;
-  font-size: 1.8rem;
+  font-family: fira-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

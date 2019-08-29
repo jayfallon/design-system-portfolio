@@ -34,6 +34,9 @@ const HeaderNav = props => (
           </Link>
         </li>
       ))}
+      <li>
+        <button>Sign Up!</button>
+      </li>
     </ul>
   </HeaderNav_SC>
 );
