@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import HeaderNav_SC from './styles';
 
 const HeaderLinks = [
   {
@@ -10,11 +11,6 @@ const HeaderLinks = [
     linkTitle: 'Link to about page',
     linkText: 'About',
     linkHref: '/about',
-  },
-  {
-    linkTitle: 'Link to Tetris page',
-    linkText: 'Tetris',
-    linkHref: '/tetris',
   },
   {
     linkTitle: 'Link to Resume page',
@@ -29,7 +25,7 @@ const HeaderLinks = [
 ];
 
 const HeaderNav = props => (
-  <nav>
+  <HeaderNav_SC>
     <ul>
       {HeaderLinks.map((elem, i) => (
         <li key={i}>
@@ -39,7 +35,7 @@ const HeaderNav = props => (
         </li>
       ))}
     </ul>
-  </nav>
+  </HeaderNav_SC>
 );
 
 export default HeaderNav;

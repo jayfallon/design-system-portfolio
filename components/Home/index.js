@@ -1,6 +1,6 @@
 const Home = () => (
   <React.Fragment>
-    <h1>This is the Home Page</h1>
+    <h1>Congrations. You have accessed the "Home" page</h1>
   </React.Fragment>
 );
 

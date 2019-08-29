@@ -6,9 +6,7 @@ import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 
-const StyledPage = styled.div`
-  height: 100%;
-`;
+const StyledPage = styled.div``;
 
 class Page extends Component {
   render() {
