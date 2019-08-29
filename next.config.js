@@ -5,6 +5,19 @@
 const withOffline = require('next-offline');
 
 const nextConfig = {
+  webpack: (config, { isServer }) => {
+    // Fixes npm packages that depend on `fs` module
+    if (!isServer) {
+      config.node = {
+        fs: 'empty',
+      };
+    }
+
+    return config;
+  },
+  env: {
+    AIRTABLE_API_KEY: 'keyYkgz6E7jrnEfvS',
+  },
   target: 'serverless',
   workboxOpts: {
     swDest: 'static/service-worker.js',
