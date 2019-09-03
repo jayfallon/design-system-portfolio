@@ -16,7 +16,7 @@ const nextConfig = {
     return config;
   },
   env: {
-    AIRTABLE_API_KEY: 'keyYkgz6E7jrnEfvS',
+    AIRTABLE_API_KEY: 'keyPkRefW03ir9JSA',
   },
   target: 'serverless',
   workboxOpts: {

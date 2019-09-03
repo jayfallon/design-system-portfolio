@@ -1,4 +1,4 @@
-import DesignSystem from '../components/DesignSystem';
+import DesignSystem from '../../components/DesignSystem';
 
 const DesignSystemPage = props => <DesignSystem />;
 

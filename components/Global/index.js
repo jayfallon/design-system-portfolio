@@ -13,7 +13,7 @@ body {
   padding-bottom: 36rem;
   height: 100%;
   color: ${Theme.pageTextColor};
-  font-family: fira-sans, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2rem;
