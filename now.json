@@ -3,8 +3,10 @@
   "name": "portfolio-redesign-system",
   "alias": ["design.jayfallon.dev"],
   "builds": [{ "src": "package.json", "use": "@now/next" }],
-  "env": {
-    "AIRTABLE_API_KEY": "@airtable_api_key"
+  "build": {
+    "env": {
+      "AIRTABLE_API_KEY": "@airtable_api_key"
+    }
   },
   "routes": [
     {

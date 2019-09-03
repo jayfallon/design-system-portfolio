@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
-import { AIRTABLE_API_KEY } from '../.config';
 
 import Section from '../components/UI/Section';
+
+require('dotenv').config();
 
 const Resume = props => (
   <Section>
@@ -22,7 +23,7 @@ const Resume = props => (
 
 Resume.getInitialProps = async function() {
   const res = await fetch(
-    `https://api.airtable.com/v0/appXd0P4lXEpbntLn/Job%20History?api_key=${AIRTABLE_API_KEY}`
+    `https://api.airtable.com/v0/appXd0P4lXEpbntLn/Job%20History?api_key=${process.env.AIRTABLE_API_KEY}`
   );
 
   const data = await res.json();

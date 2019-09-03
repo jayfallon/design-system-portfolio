@@ -1,4 +1,4 @@
-import DeeThree from '../components/DeeThree';
+import DeeThree from '../../components/DeeThree';
 
 const DeeThreePage = props => <DeeThree />;
 
